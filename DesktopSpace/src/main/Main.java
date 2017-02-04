@@ -5,7 +5,7 @@ import scheduler.Scheduler;
 
 public class Main {
 	
-	final static Runnable wallpaperUpdate = new Runnable() {
+	private final static Runnable wallpaperUpdate = new Runnable() {
 		public void run() {
 			try {
 				WallPaperIO.setWallpaper();
